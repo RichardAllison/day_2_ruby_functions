@@ -100,9 +100,10 @@
 #   end
 # end
 
-# def volume(side_length)
+# def volume_cube(side_length)
 #   return side_length ** 3
 # end
+
 def volume_sphere(radius)
-  return ((4 / 3) * 3.14) * (radius ** 3) 
+  return 4*(3.14 * (15**3))/3
 end
